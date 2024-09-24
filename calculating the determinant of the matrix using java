@@ -1,0 +1,8 @@
+//calculating the determinant of the matrix using java.
+class HelloWorld {
+    public static void main(String[] args) {
+      int R1=8 , R2=4 , R3=3 , R4=-5 , R5=6 , R6=2 , R7=7 , R8=9 , R9=-8;
+      int answer=R1*(R5*R9-R8*R6)-R2*(R4*R9-R6*R7)+R3*(R4*R8-R7*R5);
+      System.out.println("determinant is "+answer);
+    }
+}
